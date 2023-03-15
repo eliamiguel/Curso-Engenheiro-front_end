@@ -1,0 +1,68 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #DBC9C5;
+  padding: 16px 0;
+}
+header nav ul li{
+  display: inline;
+  margin-left: 16px 0;
+}
+header .container, section .container {
+display:flex;
+align-items: center;
+justify-content: space-between;
+}
+header nav li a{
+  text-decoration: none;
+  margin-left: 16px;
+  font-size: 15pt;
+  color: black;
+}
+sobre_mim{
+  background-color: #F3F3F3;
+}
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin:0 auto;
+}
+.container h1{
+  font-family: 'Ubuntu', sans-serif;
+}
+header nav li a:hover{
+  background-color:rgba(170, 169, 169, 0.416);
+  padding: 12px;
+  border-radius: 5px;
+}
+.container img{
+  width: 480px;
+  height: 480px;
+  object-fit: contain;
+  margin-left: 150px;
+}
+
+section .container p, h2, strong{
+  margin-left: 24px;
+  line-height: 2em ;
+}
+section .container h2{ margin-bottom: 24px;
+  font-size: 100px;
+  font-family: 'Ubuntu', sans-serif;}
+
+section .container strong{
+font-size: 30px; 
+}
+hr{
+margin-top: 50px;
+}
+#curriculo .container h1{
+margin-top:24px;
+font-size: 30px;
+font-family: 'Ubuntu', sans-serif  
+}
