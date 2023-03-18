@@ -10,7 +10,7 @@ forml.addEventListener('submit', function(e){
   let camA = document.getElementById('campoa')
   let camB = document.getElementById('campob')
 
-  if ()
+  if (validaForm())
 /*let camA = document.getElementById('campoa')
 let camB = document.getElementById('campob')
 let res = document.getElementById('res')
