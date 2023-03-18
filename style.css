@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+body{
+  text-align: center;
+  background-color: aquamarine;
+}
+h1,h2{
+  text-transform: uppercase;
+  color: rgba(6, 11, 10, 0.941);
+  padding:10px ;
+}
+form{
+  background-color: white;
+  border-radius: 10px;
+  width: 400px;
+  height: 250px;
+  margin: auto;
+  padding: 10px;
+}
+form input, button{
+  width: 300px;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 25px;
+  display: block;
+border-color:rgba(32, 134, 100, 0.7) ;
+  
+}
+button:hover{
+  background-color: rgba(32, 134, 100, 0.7);
+}
+input:focus, button:focus{
+  outline-color:rgba(32, 134, 100, 0.7) ;
+}
