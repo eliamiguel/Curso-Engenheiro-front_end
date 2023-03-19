@@ -5,10 +5,11 @@ padding: 0px;
 box-sizing: border-box;
 }
 body{
-  text-align: center;
+  
   background-color: aquamarine;
 }
 h1,h2{
+  text-align: center;
   text-transform: uppercase;
   color: rgba(6, 11, 10, 0.941);
   padding:10px ;
@@ -16,8 +17,8 @@ h1,h2{
 form{
   background-color: white;
   border-radius: 10px;
-  width: 400px;
-  height: 250px;
+  width: 350px;
+  height: 280px;
   margin: auto;
   padding: 10px;
 }
@@ -35,4 +36,20 @@ button:hover{
 }
 input:focus, button:focus{
   outline-color:rgba(32, 134, 100, 0.7) ;
+}
+.invalidA{
+  border: 1px solid red;
+  display: none;
+}
+.invalidB{
+  display: none;
+  border: 1px solid red;
+}
+.erroCampoa{
+  color:red;
+  display: none;
+}
+.erroCampob{
+  display: none;
+  color:red;
 }
