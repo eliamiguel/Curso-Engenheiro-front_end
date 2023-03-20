@@ -39,17 +39,24 @@ input:focus, button:focus{
 }
 .invalidA{
   border: 1px solid red;
-  display: none;
 }
 .invalidB{
-  display: none;
+
   border: 1px solid red;
 }
 .erroCampoa{
   color:red;
   display: none;
 }
+p{
+  color:red;
+}
+
 .erroCampob{
   display: none;
   color:red;
 }
+
+
+.res h2{ 
+  color: white;
