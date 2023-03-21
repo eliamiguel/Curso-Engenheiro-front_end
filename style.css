@@ -9,10 +9,13 @@ body{
   background-color: aquamarine;
 }
 h1,h2{
+  font-family: 'Concert One', cursive;
+  font-size: 2.5em;
   text-align: center;
   text-transform: uppercase;
   color: rgba(6, 11, 10, 0.941);
   padding:10px ;
+
 }
 form{
   background-color: white;
@@ -53,6 +56,8 @@ input:focus, button:focus{
   color:red;}
   
 p{
+  text-align: center;
+  font-size: 0.8em;
   color:red;
 }
 
@@ -63,4 +68,4 @@ p{
 
 
 .res h2{ 
-  color: white;
+  color: ;}
