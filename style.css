@@ -47,7 +47,11 @@ input:focus, button:focus{
 .erroCampoa{
   color:red;
   display: none;
-}
+} 
+.erroCampo1{
+  display: none;
+  color:red;}
+  
 p{
   color:red;
 }
