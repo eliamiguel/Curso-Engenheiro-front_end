@@ -1,8 +1,4 @@
-/*const form =document.getElementById('form')
-let input = document. querySelector('#numero1')
-let inputcampb = document.querySelector('#numero2')
 
-console.log(input)*/
 const form =document.getElementById('form')
 const mensse =document.querySelector('.res')
 let input = document.getElementById('numero1')
