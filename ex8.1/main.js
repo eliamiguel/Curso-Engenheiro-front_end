@@ -66,3 +66,78 @@ function calculaMediafinal(){
 }
 
 
+
+
+
+/*   
+JQuery
+header{
+  background-color: #5f27cd;
+  padding: 16px 0;
+  color: white;
+  display: flex;
+  border-bottom: 16px solid #3427cd;
+  justify-content: center;
+  text-transform: uppercase;
+  font-style: italic;
+}
+header button{
+  margin-left: 16px;
+}
+form {
+  display: none;
+  background-color: #c8d6e5;
+  padding: 24px 0;
+  text-align: center;
+}
+input, button{
+  padding: 8px;
+}
+form h2{
+  margin-bottom:16px;
+}
+button{
+  background-color: #009432;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform:uppercase;
+  color: white;
+}
+#botao-cancelar{
+  background-color: red;
+}
+ul{
+  
+  display: flex;
+  flex-wrap: wrap;
+}
+ul li {
+  max-width: 25%;
+  list-style: none;
+  position: relative;
+  max-height: 280px;
+  overflow-y: hidden;
+  
+}
+ul li img{
+  width:100%;
+}
+.imagen-ink {
+  padding: 16px;
+  background-color: rgba(0,0, 0,0.7);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: all ease.5s;
+}
+.imagen-ink a{
+  color: white;
+  text-decoration: none;
+}
+ul li:hover .imagen-ink {
+  opacity: 1;
+}
+*/
