@@ -12,7 +12,7 @@ $(document).ready(function(){
       
    })
    $(list).click(function(){
-         $(list).addClass('itens')
+   $(list).addClass('itens')
    })
    
    
