@@ -9,11 +9,9 @@ $(document).ready(function(){
       $(`<li id="i">${inputNomeTarefa}</li>`).appendTo(list)
       $(list).appendTo('ul');
       $('#nome').val('')
-      $(list).removeClass('itens')
       
    })
-   $(list).removeClass('itens')
-   $('ul').click(function(){
+   $(list).click(function(){
          $(list).addClass('itens')
    })
    
