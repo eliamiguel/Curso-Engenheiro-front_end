@@ -21,7 +21,7 @@
     }
     section{
       height: 100vh;
-      background-color: #ccc;
+      background-color: #ffffff;
       padding-top: 70px;
     }
   </style>
@@ -50,6 +50,7 @@
             </li>
           </ul>
         </nav>
+        <button id="btn-checar-entrada" type="button" class="btn btn-warning" >Checar caixa de entrada</button>
       </div>
     </div>
   </header>
@@ -59,6 +60,25 @@
     </section>
     <section id="produtos">
       <h2>Produtos</h2>
+      <div class="container">
+        <nav class=" nav nav-pills">
+          <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active" type="button">Eletrônicos</button>
+          <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link" type="button">Moda Masculina</button>
+          <button data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link" type="button">Moda Feminina</button>
+        </nav>
+        <div class="tab-content">
+          <div class="tab-pane active" id="aba1">
+            conteudo da aba eletronicos
+          </div>
+        
+          <div class="tab-pane"id="aba2" >
+            conteudo da aba moda masculina
+          </div>
+          <div class="tab-pane" id="aba3">
+            conteudo da aba moda feminina
+        </div>
+      </div>
+      </div>
     </section>
     <section id="promocao">
       <h2>Promoções</h2>
@@ -67,8 +87,34 @@
       <h2>Contato</h2>
     </section>
   </div>
+  <div class="toaste-container position-fixed bottom-0 end-0 p-3">
+    <div class="toast" id="mensagens-alerta">
+      <header class="toast-header">
+        <strong>importante</strong>
+      </header>
+      <div class="toast-body">
+        Voce possue 10 mensagem não lida
+        <div class="mt-2 pt-2 border-top">
+          <button data-bs-dismiss="toast"class="btn btn-danger" >Descartar</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   <script src="./bootstrap.bundle.min.js"></script>
+  <script>
+    const ativadorTost=document.getElementById('btn-checar-entrada');
+    const mensagem= document.getElementById('mensagens-alerta')
+
+    if(ativadorTost){
+      ativadorTost.addEventListener('click', function(){
+        const toast=new bootstrap.Toast(mensagem);
+
+        toast.show();
+      })
+
+    }
+  </script>
 </body>
 </html>
