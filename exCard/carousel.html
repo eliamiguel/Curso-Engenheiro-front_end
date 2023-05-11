@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+  <div class="carousel carousel-fade slide" data-bs-ride="carousel" id="slides">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000" >
+          <img src="https://images.pexels.com/photos/1324803/pexels-photo-1324803.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+          <div class="carousel-caption">
+          <h4>Foto Arvores</h4>
+        </div>
+        </div>
+      <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://images.pexels.com/photos/1933239/pexels-photo-1933239.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+      <div class="carousel-caption">
+        <h4>Foto paisagem</h4>
+      </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#slides" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#slides" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#slides" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#slides"
+         data-bs-slide-to="1" ></button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>
